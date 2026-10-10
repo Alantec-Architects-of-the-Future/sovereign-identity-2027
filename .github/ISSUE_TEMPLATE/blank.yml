@@ -1,0 +1,22 @@
+name: "Blank Issue"
+description: "Create a blank issue template for custom topics and architectural observations."
+title: "[BLANK]: "
+labels: ["custom"]
+assignees:
+  - "jeanlaris"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🧠 **Cognitive Framework Notice**
+        
+        🎯 **Objective:** Document custom observations, edge cases, or non-standard architectural proposals.
+        ⚙️ **Execution:** Provide clear context and actionable descriptions.
+  - type: textarea
+    id: details
+    attributes:
+      label: "Issue Details"
+      description: "Describe your custom request, issue, or proposition in detail."
+      placeholder: "Provide context and direct technical insight..."
+    validations:
+      required: true
